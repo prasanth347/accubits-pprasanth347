@@ -45,6 +45,7 @@ const Login = ({navigation}) => {
 					onChangeText={setUser}/>
 				<TextInput
 					style={styles.textInput}
+					secureTextEntry={true}
 					placeholder="Password"
 					onChangeText={setPass}/>
 				<TouchableOpacity
